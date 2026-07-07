@@ -1,0 +1,17 @@
+{
+  "name": "telegram-news-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram - Publication automatique de news depuis des flux RSS",
+  "main": "telegram_news_bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node telegram_news_bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
